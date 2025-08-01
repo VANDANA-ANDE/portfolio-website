@@ -144,4 +144,37 @@ body {
       grid-template-columns: repeat(3, 1fr);
     }
   }
+
+  .skills {
+    background: #fff;
+    padding: 3rem 2rem;
+  }
+  
+  .skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skills-list span {
+    background-color: #e0e7ff;
+    color: #1e3a8a;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skills-list span:hover {
+    background-color: #c7d2fe;
+  }
   
