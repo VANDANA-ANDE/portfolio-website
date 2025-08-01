@@ -178,3 +178,28 @@ body {
     background-color: #c7d2fe;
   }
   
+  .resume {
+    background: #f3f4f6;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .resume h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .resume-download .btn {
+    background-color: #10b981;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-download .btn:hover {
+    background-color: #059669;
+  }
+  
